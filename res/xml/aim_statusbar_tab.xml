@@ -21,4 +21,10 @@
     android:layout="@layout/tab"
     android:title="@string/aim_statusbar_title">
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.aim.fragments.ClockSettings"
+        android:key="aim_clock_settings"
+        android:title="@string/clock_settings_title"
+        android:summary="@string/clock_settings_summary" />
+
 </PreferenceScreen>
